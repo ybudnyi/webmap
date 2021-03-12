@@ -2,6 +2,7 @@ import shelve
 from selenium import webdriver
 import os
 
+# Only DB name, without extension
 print(os.listdir())
 db_name = input('Print name to chose db:\n--')
 
@@ -28,3 +29,6 @@ user_mess.clear()
 user_mess.send_keys(page)
 button = chrome_brw.find_element_by_class_name("searchbox-searchbutton")
 button.click()
+
+if __name__ == 'main':
+    coord_from_shelve('home')
