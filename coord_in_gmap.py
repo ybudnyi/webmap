@@ -2,7 +2,7 @@ import shelve
 from selenium import webdriver
 import os
 
-# Only DB name, without extension
+# Only DB name, without extension!!!
 print(os.listdir())
 db_name = input('Print name to chose db:\n--')
 
