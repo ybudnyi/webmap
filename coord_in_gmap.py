@@ -30,5 +30,5 @@ user_mess.send_keys(page)
 button = chrome_brw.find_element_by_class_name("searchbox-searchbutton")
 button.click()
 
-if __name__ == 'main':
+if __name__ == '__main__':
     coord_from_shelve('home')
